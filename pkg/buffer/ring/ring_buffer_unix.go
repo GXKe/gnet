@@ -20,7 +20,7 @@ package ring
 import (
 	"golang.org/x/sys/unix"
 
-	"github.com/panjf2000/gnet/v2/internal/io"
+	"github.com/winlin/gnet/v2/internal/io"
 )
 
 // ========================= gnet specific APIs =========================
