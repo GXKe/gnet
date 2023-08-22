@@ -24,8 +24,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/winlin/gnet/v2/internal/netpoll"
-	"github.com/winlin/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/internal/netpoll"
+	"github.com/gxke/gnet/v2/pkg/errors"
 )
 
 type engine struct {

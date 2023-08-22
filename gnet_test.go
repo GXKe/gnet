@@ -36,10 +36,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sys/unix"
 
-	gerr "github.com/winlin/gnet/v2/pkg/errors"
-	"github.com/winlin/gnet/v2/pkg/logging"
-	bbPool "github.com/winlin/gnet/v2/pkg/pool/bytebuffer"
-	goPool "github.com/winlin/gnet/v2/pkg/pool/goroutine"
+	gerr "github.com/gxke/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/pkg/logging"
+	bbPool "github.com/gxke/gnet/v2/pkg/pool/bytebuffer"
+	goPool "github.com/gxke/gnet/v2/pkg/pool/goroutine"
 )
 
 var streamLen = 1024 * 1024

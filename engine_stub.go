@@ -19,7 +19,7 @@
 package gnet
 
 import (
-	"github.com/winlin/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/pkg/errors"
 )
 
 type server struct {

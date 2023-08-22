@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/winlin/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/pkg/errors"
 )
 
 // GetUnixSockAddr the structured addresses based on the protocol and raw address.

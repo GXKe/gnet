@@ -18,7 +18,7 @@ import (
 	"io"
 	"math"
 
-	bsPool "github.com/winlin/gnet/v2/pkg/pool/byteslice"
+	bsPool "github.com/gxke/gnet/v2/pkg/pool/byteslice"
 )
 
 type node struct {

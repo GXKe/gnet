@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/winlin/gnet/v2/internal/math"
-	"github.com/winlin/gnet/v2/pkg/buffer/ring"
-	"github.com/winlin/gnet/v2/pkg/errors"
-	"github.com/winlin/gnet/v2/pkg/logging"
+	"github.com/gxke/gnet/v2/internal/math"
+	"github.com/gxke/gnet/v2/pkg/buffer/ring"
+	"github.com/gxke/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/pkg/logging"
 )
 
 // Action is an action that occurs after the completion of an event.

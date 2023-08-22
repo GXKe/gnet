@@ -23,8 +23,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/winlin/gnet/v2/internal/netpoll"
-	"github.com/winlin/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/internal/netpoll"
+	"github.com/gxke/gnet/v2/pkg/errors"
 )
 
 func (el *eventloop) activateMainReactor(lockOSThread bool) {

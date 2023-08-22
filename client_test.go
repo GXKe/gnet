@@ -28,9 +28,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/winlin/gnet/v2/pkg/logging"
-	bbPool "github.com/winlin/gnet/v2/pkg/pool/bytebuffer"
-	goPool "github.com/winlin/gnet/v2/pkg/pool/goroutine"
+	"github.com/gxke/gnet/v2/pkg/logging"
+	bbPool "github.com/gxke/gnet/v2/pkg/pool/bytebuffer"
+	goPool "github.com/gxke/gnet/v2/pkg/pool/goroutine"
 )
 
 type clientEvents struct {

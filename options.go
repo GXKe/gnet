@@ -17,7 +17,7 @@ package gnet
 import (
 	"time"
 
-	"github.com/winlin/gnet/v2/pkg/logging"
+	"github.com/gxke/gnet/v2/pkg/logging"
 )
 
 // Option is a function that will set up option.

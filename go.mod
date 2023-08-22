@@ -1,4 +1,4 @@
-module github.com/winlin/gnet/v2
+module github.com/gxke/gnet/v2
 
 require (
 	github.com/panjf2000/ants/v2 v2.7.1

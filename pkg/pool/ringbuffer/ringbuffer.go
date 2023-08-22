@@ -23,7 +23,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/winlin/gnet/v2/pkg/buffer/ring"
+	"github.com/gxke/gnet/v2/pkg/buffer/ring"
 )
 
 const (

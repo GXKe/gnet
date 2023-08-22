@@ -26,13 +26,13 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/winlin/gnet/v2/internal/bs"
-	gio "github.com/winlin/gnet/v2/internal/io"
-	"github.com/winlin/gnet/v2/internal/netpoll"
-	"github.com/winlin/gnet/v2/internal/socket"
-	"github.com/winlin/gnet/v2/pkg/buffer/elastic"
-	gerrors "github.com/winlin/gnet/v2/pkg/errors"
-	bsPool "github.com/winlin/gnet/v2/pkg/pool/byteslice"
+	"github.com/gxke/gnet/v2/internal/bs"
+	gio "github.com/gxke/gnet/v2/internal/io"
+	"github.com/gxke/gnet/v2/internal/netpoll"
+	"github.com/gxke/gnet/v2/internal/socket"
+	"github.com/gxke/gnet/v2/pkg/buffer/elastic"
+	gerrors "github.com/gxke/gnet/v2/pkg/errors"
+	bsPool "github.com/gxke/gnet/v2/pkg/pool/byteslice"
 )
 
 type conn struct {

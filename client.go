@@ -27,12 +27,12 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/winlin/gnet/v2/internal/math"
-	"github.com/winlin/gnet/v2/internal/netpoll"
-	"github.com/winlin/gnet/v2/internal/socket"
-	"github.com/winlin/gnet/v2/pkg/buffer/ring"
-	gerrors "github.com/winlin/gnet/v2/pkg/errors"
-	"github.com/winlin/gnet/v2/pkg/logging"
+	"github.com/gxke/gnet/v2/internal/math"
+	"github.com/gxke/gnet/v2/internal/netpoll"
+	"github.com/gxke/gnet/v2/internal/socket"
+	"github.com/gxke/gnet/v2/pkg/buffer/ring"
+	gerrors "github.com/gxke/gnet/v2/pkg/errors"
+	"github.com/gxke/gnet/v2/pkg/logging"
 )
 
 // Client of gnet.

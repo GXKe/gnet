@@ -23,9 +23,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/winlin/gnet/v2/internal/bs"
-	"github.com/winlin/gnet/v2/internal/math"
-	bsPool "github.com/winlin/gnet/v2/pkg/pool/byteslice"
+	"github.com/gxke/gnet/v2/internal/bs"
+	"github.com/gxke/gnet/v2/internal/math"
+	bsPool "github.com/gxke/gnet/v2/pkg/pool/byteslice"
 )
 
 const (
